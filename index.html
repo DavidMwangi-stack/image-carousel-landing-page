@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>FOOD CAROUSEL</title>
+</head>
+<body>
+
+    <header>
+        <div><img src="assets/img/restaurant-icon-png-8.jpg" alt="image"><a href="#">FAST FEAST</a></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    </header>
+
+    <!-- CAROUSEL -->
+
+    <div id="carousel">
+        <div class="list">
+
+            <div class="item active" style="--bg: #ea3d41">
+                <div class="content">strawberry</div>
+
+                <img src="assets/img/fruit_strawberry.png" alt="image" class="fruit">
+            </div>
+
+            <div class="item" style="--bg: #04235a">
+                <div class="content">
+                berry
+                </div>
+
+                <img src="assets/img/rb_31779.png" alt="image" class="fruit">
+            </div>
+
+            <div class="item hidden" style="--bg: #e7a043">
+                <div class="content">
+                  orange
+                </div>
+
+                <img src="assets/img/fruit_orange.png" alt="image" class="fruit">
+            </div>
+
+
+        </div> 
+
+        <div class="leaves"></div>
+        <div class="mockup"></div>
+        <div class="shadow"></div>
+
+        <div class="arrow">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
